@@ -225,8 +225,8 @@ const PathSection = () => (
       <div className="max-w-4xl mx-auto mb-16">
         <div className="relative">
           {/* Progress Line */}
-          <div className="absolute top-12 left-0 right-0 h-1 bg-gradient-to-r from-aurora-green to-aurora-purple rounded-full" />
-          
+          <div className="absolute top-2.5 left-0 right-0 h-1 bg-gradient-to-r from-aurora-green to-aurora-purple rounded-full" />
+
           {/* Progress Points */}
           <div className="relative flex justify-between">
             {[
