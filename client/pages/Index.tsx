@@ -227,7 +227,7 @@ const PathSection = () => (
           {/* Progress Points */}
           <div className="relative flex justify-between">
             {/* Progress Line */}
-            <div className="absolute top-2.5 left-2.5 right-2.5 h-1 bg-gradient-to-r from-aurora-green to-aurora-purple rounded-full" />
+            <div className="absolute top-2.5 h-1 bg-gradient-to-r from-aurora-green to-aurora-purple rounded-full" style={{ left: '10px', right: '10px' }} />
             {[
               { label: "Beginner", subtitle: "Fundamentals" },
               { label: "Intermediate", subtitle: "Strategy Building" },
